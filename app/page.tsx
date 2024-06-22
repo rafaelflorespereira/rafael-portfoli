@@ -1,10 +1,11 @@
+import Experience from "./ui/experience";
 import Header from "./ui/header/header";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-4/5">
       <Header />
-      {/* Experience section */}
+      <Experience />
       {/* Skills Section */}
       {/* Rewards Section */}
       {/* Contact me section */}
