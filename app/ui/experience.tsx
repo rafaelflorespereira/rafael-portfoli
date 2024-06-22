@@ -1,11 +1,12 @@
 import Card from "./components/cards/cards";
+import nextImg from "@/public/next-js-favicon.ico";
 
 export default function Experience() {
   const jobs = [
     {
       isOdd: true,
       years: [2019, "Present"],
-      imageUrl: "/images/nextjs.png",
+      imageUrl: nextImg,
       title: "Software Engineer",
       subtitle: "Next.js",
       description: "I work on the Next.js team.",
@@ -35,7 +36,7 @@ export default function Experience() {
   ];
   return (
     <main>
-      <h1>Experience</h1>
+      <h1 className="text-md my-8">Experience</h1>
       {jobs.map((job) => (
         <Card key={job.title} {...job} />
       ))}
