@@ -2,6 +2,7 @@ import Experience from "./ui/experience";
 import Header from "./sections/header";
 import ImagesSection from "./sections/images-section";
 import Rewards from "./sections/rewards";
+import Recommendations from "./sections/recommendations";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <Experience />
       <Rewards />
       {/* Education Section (Articles) */}
-      {/* Recommendations */}
+      <Recommendations />
       {/* Contact me section */}
       {/* Footer Section */}
     </main>
