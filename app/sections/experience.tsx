@@ -1,4 +1,4 @@
-import Card from "./components/cards/cards";
+import Card from "@/app/ui/components/cards/cards";
 import nextImg from "@/public/next-js-favicon.ico";
 
 export default function Experience() {
@@ -35,11 +35,10 @@ export default function Experience() {
     },
   ];
   return (
-    <main>
-      <h1 className="text-md my-8">Experience</h1>
+    <section className="py-8 mb-4">
       {jobs.map((job) => (
         <Card key={job.title} {...job} />
       ))}
-    </main>
+    </section>
   );
 }

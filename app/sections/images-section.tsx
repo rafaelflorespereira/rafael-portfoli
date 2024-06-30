@@ -7,7 +7,7 @@ import Img4 from "@/public/Designer.jpeg";
 export default function ImagesSection() {
   const images = [Img1, Img2, Img3, Img4];
   return (
-    <section className="flex justify-center group">
+    <section className="flex justify-center group mb-4">
       {images.map((image, index) => (
         <Image
           key={index}

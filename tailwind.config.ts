@@ -17,6 +17,12 @@ const config: Config = {
         "3/4": "75%",
         "2/3": "66%",
       },
+      minHeight: {
+        "1/4-vh": "25vh",
+      },
+      backgroundSize: {
+        transition: "1000% 100%",
+      },
     },
   },
   plugins: [],

@@ -25,19 +25,18 @@ export default function Recommendations() {
     },
   ];
   return (
-    <section>
-      <h1 className="text-md my-8">Recommendations</h1>
+    <section className="p-8 mb-4">
       <div className="flex gap-3 justify-start relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-tr from-transparent to-slate-800" />
         {recommendations.map((recommendation) => (
-          <div key={recommendation.name} className="min-w-2/3">
+          <div key={recommendation.name} className="min-w-2/3 mr-8">
             <div className="py-2 flex">
               <Image
                 src={recommendation.image}
                 alt={recommendation.name}
                 width={200}
                 height={200}
-                className="rounded-full w-12 h-12 my-4"
+                className="rounded-full w-12 h-12 my-2"
               />
               <div className="mt-3 ml-3">
                 <h2 className="text-lg text-slate-200 ">

@@ -15,8 +15,7 @@ export default function Rewards() {
     },
   ];
   return (
-    <section>
-      <h1 className="text-md my-8">Rewards</h1>
+    <section className="p-8 mb-4">
       <div className="flex gap-5">
         {rewards.map((reward) => (
           <Card1 key={reward.title} {...reward} />
