@@ -7,7 +7,7 @@ export default function ContactMe() {
         <input
           type="text"
           placeholder="Insert your email"
-          className="bg-transparent mr-2 focus:border-2 px-2 border-slate-200 rounded-3xl w-full"
+          className="bg-transparent m-4 focus:border-2 px-2 py-1 border-slate-200 rounded-3xl w-full"
         ></input>
         <Button>Let&apos;s talk</Button>
       </form>

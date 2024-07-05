@@ -20,10 +20,17 @@ export default function Social({
       target="_blank"
       rel="noreferrer"
       title={name}
-      className=" text-red-600 w-8"
+      className="m-2 flex flex-col items-center gap-1"
     >
-      {children}
-      <p className="text-sm">{name}</p>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 496 512"
+        fill="currentColor"
+        className="w-6 h-6"
+      >
+        {children}
+      </svg>
+      <p className="text-sm ">{name}</p>
     </a>
   );
 }
