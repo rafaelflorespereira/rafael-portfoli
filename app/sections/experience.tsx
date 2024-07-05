@@ -1,37 +1,30 @@
 import Card from "@/app/ui/components/cards/cards";
-import nextImg from "@/public/next-js-favicon.ico";
+
+import sunsetImg from "@/public/sunset-image.jpeg";
+import codebyImg from "@/public/codeby-image.jpeg";
+import unimontesImg from "@/public/unimontes_logo.jpeg";
+
+import { Job } from "../interfaces";
 
 export default function Experience() {
-  const jobs = [
+  const jobs: Job[] = [
     {
-      isOdd: true,
-      years: [2019, "Present"],
-      imageUrl: nextImg,
+      years: "Nov 2022 - Apr 2024 (1 yr 6 mos)",
+      imageUrl: sunsetImg,
       title: "Software Engineer",
-      subtitle: "Next.js",
-      description: "I work on the Next.js team.",
-      links: ["https://nextjs.org"],
-      experiences: [
-        {
-          name: "Next.js",
-          level: 3,
-        },
-      ],
+      subtitle: "Sunset Tires Corp. LTDA",
     },
     {
-      isOdd: false,
-      years: [2018, 2019],
-      imageUrl: "/images/vercel.png",
-      title: "Software Engineer",
-      subtitle: "Vercel",
-      description: "I worked on the Vercel team.",
-      links: ["https://vercel.com"],
-      experiences: [
-        {
-          name: "Vercel",
-          level: 2,
-        },
-      ],
+      years: "May 2021 - Oct 2022 (1 yr 6 mos)",
+      imageUrl: codebyImg,
+      title: "Frontend Developer",
+      subtitle: "Codeby",
+    },
+    {
+      years: "Jun 2019 - Apr 2021 (1 yr 11 mos)",
+      imageUrl: unimontesImg,
+      title: "Fullstack Developer Inter",
+      subtitle: "Directorate of Information Technology - Unimontes",
     },
   ];
   return (

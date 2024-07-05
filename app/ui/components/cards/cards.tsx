@@ -1,29 +1,12 @@
 import Image, { StaticImageData } from "next/image";
-
-type Experience = {
-  name: string;
-  level: number;
-};
-type CardProps = {
-  isOdd: boolean;
-  years: (number | string)[];
-  imageUrl: StaticImageData | string;
-  title: string;
-  subtitle: string;
-  description: string;
-  links: string[];
-  experiences: Experience[];
-};
+import { Job } from "@/app/interfaces";
 export default function Card({
-  isOdd,
   years,
   imageUrl,
   title,
   subtitle,
   description,
-  links,
-  experiences,
-}: CardProps) {
+}: Job) {
   return (
     <div className="flex p-4 odd:bg-transparent bg-slate-600 rounded-xl">
       <Image
