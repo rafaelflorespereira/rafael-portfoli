@@ -15,7 +15,13 @@ export default function Social({
   svgLogo,
 }: SocialProps) {
   return (
-    <a href={link} target="_blank" rel="noreferrer" title={name}>
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      title={name}
+      className=" text-red-600 w-8"
+    >
       {children}
       <p className="text-sm">{name}</p>
     </a>

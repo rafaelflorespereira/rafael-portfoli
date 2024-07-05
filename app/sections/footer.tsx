@@ -7,14 +7,20 @@ import LinkedinLogo from "../ui/logos/linkedin-logo";
 export default function Footer() {
   const socials = [
     {
-      svgLogo: <LinkedinLogo />,
+      svgLogo: <GithubLogo />,
       alt: "Github logo",
       name: "Github",
       link: "https://github.com/rafaelflorespereira",
     },
+    {
+      svgLogo: <LinkedinLogo />,
+      alt: "Linkedin logo",
+      name: "Linkedin",
+      link: "https://www.linkedin.com/in/rafael-flores-pereira/",
+    },
   ];
   return (
-    <section className="min-h-1/4-vh flex justify-center align-middle">
+    <section className="min-h-1/4-vh flex flex-col justify-center items-center w-full gap-2">
       <Image
         src={logo}
         alt="Rafael's logo picture"
@@ -27,6 +33,7 @@ export default function Footer() {
           {social.svgLogo}
         </Social>
       ))}
+
       {/* All rights reserved */}
     </section>
   );
