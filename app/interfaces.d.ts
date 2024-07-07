@@ -5,3 +5,9 @@ export type Job = {
   subtitle: string;
   description?: string;
 };
+
+export type IHeaderIcon = {
+  icon: FontAwesomeIconProps["icon"];
+  color: string;
+  name: string;
+};
