@@ -1,23 +1,22 @@
 import Image from "next/image";
-import Img1 from "@/public/Image-1.jpeg";
 export default function Recommendations() {
   const recommendations = [
     {
-      image: Img1,
+      image: "",
       name: "John Dunton",
       title: "Software Engineer",
       message:
         "Rafael is a great engineer. He is very talented and has a great attitude. He is a great team player and is always willing to help others. I highly recommend him.",
     },
     {
-      image: Img1,
+      image: "",
       name: "Jane Smith",
       title: "Software Engineer",
       message:
         "Rafael is a great engineer. He is very talented and has a great attitude. He is a great team player and is always willing to help others. I highly recommend",
     },
     {
-      image: Img1,
+      image: "",
       name: "Jane Smith",
       title: "Software Engineer",
       message:

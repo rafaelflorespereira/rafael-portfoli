@@ -1,4 +1,3 @@
-import logoImg1 from "@/public/next-js-favicon.ico";
 import Card1 from "../ui/components/cards/card-1";
 
 export default function Rewards() {
@@ -6,12 +5,12 @@ export default function Rewards() {
     {
       title: "Designer",
       subtitle: "I design cool stuff",
-      logo: logoImg1,
+      logo: "",
     },
     {
       title: "Developer",
       subtitle: "I develop cool stuff",
-      logo: logoImg1,
+      logo: "",
     },
   ];
   return (

@@ -1,11 +1,7 @@
 import Image from "next/image";
-import Img1 from "@/public/Image-1.jpeg";
-import Img2 from "@/public/Designer (2).jpeg";
-import Img3 from "@/public/Designer (3).jpeg";
-import Img4 from "@/public/Designer.jpeg";
 
 export default function ImagesSection() {
-  const images = [Img1, Img2, Img3, Img4];
+  const images = [""];
   return (
     <section className="flex justify-center group mb-4">
       {images.map((image, index) => (

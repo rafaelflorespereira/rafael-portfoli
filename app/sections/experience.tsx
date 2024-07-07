@@ -23,7 +23,7 @@ export default function Experience() {
     {
       years: "Jun 2019 - Apr 2021 (1 yr 11 mos)",
       imageUrl: unimontesImg,
-      title: "Fullstack Developer Inter",
+      title: "Fullstack Developer Intern",
       subtitle: "Directorate of Information Technology - Unimontes",
     },
   ];

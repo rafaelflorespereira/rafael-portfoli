@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
       <ImagesSection />
 
-      <h1 className="font-bold">Experience</h1>
+      <h1 className="font-bold">Job Experiences</h1>
       <Experience />
 
       <h1 className="font-bold">Rewards</h1>
