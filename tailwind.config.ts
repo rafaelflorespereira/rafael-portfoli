@@ -23,6 +23,15 @@ const config: Config = {
       backgroundSize: {
         transition: "1000% 100%",
       },
+      keyframes: {
+        glow: {
+          "0%, 100%": { opacity: "0" },
+          "50%": { opacity: "1" },
+        },
+      },
+      animation: {
+        glow: "glow 4s ease-in-out 1",
+      },
     },
   },
   plugins: [],

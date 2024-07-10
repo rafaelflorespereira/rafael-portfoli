@@ -11,3 +11,7 @@ export type IHeaderIcon = {
   color: string;
   name: string;
 };
+export interface IHeaderIconProps extends IHeaderIcon {
+  index: number;
+  arraylength: number;
+}
