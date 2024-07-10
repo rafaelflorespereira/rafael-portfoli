@@ -20,7 +20,7 @@ export default function HeaderIcon({
 
   return (
     <div
-      className={`m-2 p-2 w-12 h-12 rounded-lg absolute ${
+      className={`p-2 w-16 h-16 rounded-lg absolute left-2/4 -translate-x-1/2 ${
         counter === index ? "animate-glow" : "animate-none hidden"
       }`}
       style={{

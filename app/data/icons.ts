@@ -1,11 +1,15 @@
 import {
   faAtlassian,
-  faGit,
+  faCss3,
+  faGitAlt,
   faHtml5,
   faJs,
+  faLaravel,
   faLinux,
   faNodeJs,
+  faNpm,
   faReact,
+  faSass,
 } from "@fortawesome/free-brands-svg-icons";
 import { IHeaderIcon } from "../interfaces";
 
@@ -26,9 +30,14 @@ export const techIcons: IHeaderIcon[] = [
     name: "Atlassian",
   },
   {
-    icon: faGit,
+    icon: faGitAlt,
     color: "#F28159",
     name: "Git",
+  },
+  {
+    icon: faNpm,
+    color: "#FF4747",
+    name: "npm",
   },
 ];
 export const frontEndIcons: IHeaderIcon[] = [
@@ -42,6 +51,16 @@ export const frontEndIcons: IHeaderIcon[] = [
     color: "#e34f26",
     name: "HTML5",
   },
+  {
+    icon: faSass,
+    color: "#CF649A",
+    name: "Sass",
+  },
+  {
+    icon: faCss3,
+    color: "#264de4",
+    name: "CSS3",
+  },
 ];
 
 export const backEndIcons: IHeaderIcon[] = [
@@ -49,5 +68,10 @@ export const backEndIcons: IHeaderIcon[] = [
     icon: faNodeJs,
     color: "#68a063",
     name: "Node.js",
+  },
+  {
+    icon: faLaravel,
+    color: "#FF4843",
+    name: "Laravel",
   },
 ];
