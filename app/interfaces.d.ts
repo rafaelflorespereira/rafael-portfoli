@@ -4,6 +4,10 @@ export type Job = {
   title: string;
   subtitle: string;
   description?: string;
+  abilitiesLearnt: {
+    title: string;
+    score: number;
+  }[];
 };
 
 export type IHeaderIcon = {

@@ -22,12 +22,9 @@ export default function HeaderIcon({
     <div
       className={`p-2 w-16 h-16 rounded-lg absolute left-2/4 -translate-x-1/2 ${
         counter === index ? "animate-glow" : "animate-none hidden"
-      }`}
-      style={{
-        boxShadow: `0 0 10px 0 ${color}`,
-      }}
+      } shadow-slate-500 shadow-md `}
     >
-      <FontAwesomeIcon icon={icon} color={color} className="w-full h-full" />
+      <FontAwesomeIcon icon={icon} className="w-full h-full" />
     </div>
   );
 }
