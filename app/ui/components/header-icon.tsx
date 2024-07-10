@@ -13,14 +13,14 @@ export default function HeaderIcon({
   useEffect(() => {
     const interval = setInterval(() => {
       setCounter((prev) => (prev + 1) % arraylength);
-    }, 4000);
+    }, 3500);
 
     return () => clearInterval(interval);
   }, [arraylength, counter]);
 
   return (
     <div
-      className={`m-2 p-2 rounded-lg absolute transition-all delay-1000  ${
+      className={`m-2 p-2 w-12 h-12 rounded-lg absolute ${
         counter === index ? "animate-glow" : "animate-none hidden"
       }`}
       style={{
