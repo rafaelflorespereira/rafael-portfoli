@@ -24,17 +24,17 @@ export default function Card({
   };
 
   return (
-    <div className="flex p-3 odd:bg-transparent bg-slate-600 rounded-xl group relative overflow-hidden my-4 ">
+    <div className="flex p-3 odd:bg-transparent bg-primary-600 rounded-xl group relative overflow-hidden my-4 ">
       <div
-        className="absolute w-4/5 h-full top-0 right-0 bg-gradient-to-bl from-slate-700  to-gray-800 translate-x-full group-hover:translate-x-0 invisible group-hover:visible transition-all ease-in-out rounded-r-xl 
-grid grid-rows-3 gap-2 
+        className="absolute w-4/5 h-full top-0 right-0 bg-gradient-to-bl from-primary-700  to-gray-800 translate-x-full group-hover:translate-x-0 invisible group-hover:visible transition-all ease-in-out rounded-r-xl 
+          grid grid-rows-3 gap-2 
         "
         style={{ clipPath: "polygon(10% 0, 100% 0, 100% 100%, 0% 100%)" }}
       >
         {abilitiesLearnt.map((ability) => (
           <div key={ability.title} className="p-2 flex justify-end gap-2">
-            <p className="text-slate-200">{ability.title}</p>
-            <p className="text-slate-200">
+            <p className="text-primary-200">{ability.title}</p>
+            <p className="text-primary-200">
               {Array.from({ length: MAX_SCORE }).map((_, i) => (
                 <FontAwesomeIcon key={i} icon={getStarIcon(i, ability.score)} />
               ))}
@@ -57,10 +57,10 @@ grid grid-rows-3 gap-2
         />
       </div>
       <div className="w-auto p-4  group-hover:[&>*]:blur-sm">
-        <p className="text-xs text-slate-400 group-hover:blur-sm">{years}</p>
-        <h2 className="text-xl text-slate-200">{title}</h2>
-        <p className="text-slate-300">{subtitle}</p>
-        <p className="text-slate-400">{description}</p>
+        <p className="text-xs text-primary-400 group-hover:blur-sm">{years}</p>
+        <h2 className="text-xl text-primary-200">{title}</h2>
+        <p className="text-primary-300">{subtitle}</p>
+        <p className="text-primary-400">{description}</p>
       </div>
       {/* Links */}
       {/* Experience Sub card */}

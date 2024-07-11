@@ -7,7 +7,7 @@ type CardProps = {
 };
 export default function Card1({ image, title, subtitle }: CardProps) {
   return (
-    <div className="bg-slate-900 w-1/3 rounded-lg py-4 px-3">
+    <div className="bg-primary-900 w-1/3 rounded-lg py-4 px-3">
       <Image
         src={image}
         alt={title}
@@ -16,7 +16,7 @@ export default function Card1({ image, title, subtitle }: CardProps) {
         className="rounded-full my-2"
       />
       <h1 className="text-lg">{title}</h1>
-      <p className="text-slate-400 text-md">{subtitle}</p>
+      <p className="text-primary-400 text-md">{subtitle}</p>
     </div>
   );
 }

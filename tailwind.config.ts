@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
 
 const config: Config = {
   content: [
@@ -31,6 +32,10 @@ const config: Config = {
       },
       animation: {
         glow: "glow 4s ease-in-out 1",
+      },
+      colors: {
+        primary: colors.slate,
+        secondary: colors.cyan,
       },
     },
   },
