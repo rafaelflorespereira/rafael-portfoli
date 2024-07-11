@@ -1,5 +1,5 @@
-import Image, { StaticImageData } from "next/image";
-import { Job } from "@/app/interfaces";
+import Image from "next/image";
+import { Experience } from "@/app/interfaces";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -16,7 +16,7 @@ export default function Card({
   subtitle,
   description,
   abilitiesLearnt,
-}: Job) {
+}: Experience) {
   const getStarIcon = (index: number, score: number) => {
     if (score - index === 0.5) return faStarHalfStroke;
     if (index < score) return fasStar;

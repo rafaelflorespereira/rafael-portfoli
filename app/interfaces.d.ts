@@ -1,4 +1,4 @@
-export type Job = {
+export type Experience = {
   years: string;
   imageUrl: StaticImageData | string;
   title: string;

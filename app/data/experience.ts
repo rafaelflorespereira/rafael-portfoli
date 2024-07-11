@@ -1,9 +1,9 @@
-import { Job } from "../interfaces";
+import { Experience } from "../interfaces";
 import sunsetImg from "@/public/sunset-image.jpeg";
 import codebyImg from "@/public/codeby-image.jpeg";
 import unimontesImg from "@/public/unimontes_logo.jpeg";
 
-export const jobs: Job[] = [
+export const jobs: Experience[] = [
   {
     years: "Nov 2022 - Apr 2024 (1 yr 6 mos)",
     imageUrl: sunsetImg,

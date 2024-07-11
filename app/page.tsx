@@ -5,6 +5,7 @@ import Rewards from "./sections/rewards";
 import Recommendations from "./sections/recommendations";
 import Footer from "./sections/footer";
 import ContactMe from "./sections/contact-me";
+import Education from "./sections/education";
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
 
       <h1 className="font-bold">Job Experiences</h1>
       <Experience />
+
+      <h1 className="font-bold">Education</h1>
+      <Education />
 
       <h1 className="font-bold">Rewards</h1>
       <Rewards />
