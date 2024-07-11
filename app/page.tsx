@@ -19,9 +19,8 @@ export default function Home() {
       <h1 className="font-bold">Education</h1>
       <Education />
 
-      <h1 className="font-bold">Rewards</h1>
+      <h1 className="font-bold">Awards and Certifications</h1>
       <Rewards />
-      {/* Education Section (Articles) */}
 
       <h1 className="font-bold">Recommendations</h1>
       <Recommendations />
