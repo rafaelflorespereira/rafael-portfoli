@@ -16,7 +16,7 @@ export default function Header() {
       <h1 className="text-2xl m-2">Rafael Flores Pereira</h1>
       <h2 className="text-xs">Software Engineer</h2>
       <h2 className="text-xs">React &bull; Nodejs &bull; Typescript</h2>
-      <Button>Contact me</Button>
+      <Button href="/#get-in-touch">Contact me</Button>
       {/* Social media links*/}
     </section>
   );

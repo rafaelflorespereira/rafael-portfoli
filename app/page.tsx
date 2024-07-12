@@ -25,7 +25,9 @@ export default function Home() {
       <h1 className="font-bold">Recommendations</h1>
       <Recommendations />
 
-      <h1 className="font-bold">Get in touch</h1>
+      <h1 className="font-bold" id="get-in-touch">
+        Get in touch
+      </h1>
       <ContactMe />
 
       <Footer />
