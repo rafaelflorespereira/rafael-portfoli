@@ -9,7 +9,7 @@ import Education from "./sections/education";
 
 export default function Home() {
   return (
-    <main className="md:max-w-3xl w-full p-16 bg-gray-800 border-sky-100 border-x">
+    <main className="md:max-w-3xl w-full p-8 md:p-16 bg-gray-800 border-sky-100 border-x">
       <Header />
       <ImagesSection />
 

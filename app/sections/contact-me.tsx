@@ -2,8 +2,8 @@ import Button from "../ui/components/button";
 
 export default function ContactMe() {
   return (
-    <section className="p-8 mb-4">
-      <form className="flex justify-center gap-2 w-full">
+    <section className="section-spacing">
+      <form className="flex flex-col md:flex-row justify-center gap-2 w-full">
         <input
           type="text"
           placeholder="Insert your email"

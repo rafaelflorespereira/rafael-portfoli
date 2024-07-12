@@ -7,7 +7,7 @@ type CardProps = {
 };
 export default function Card1({ image, title, subtitle }: CardProps) {
   return (
-    <div className="bg-primary-900 w-1/3 rounded-lg py-4 px-3">
+    <div className="bg-primary-900 w-full md:w-1/3 rounded-lg py-4 px-3">
       <Image
         src={image}
         alt={title}

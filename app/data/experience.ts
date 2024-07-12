@@ -35,7 +35,7 @@ export const jobs: Experience[] = [
         score: 4.5,
       },
       {
-        title: "VTEX (Ecommerce)",
+        title: "VTEX",
         score: 4,
       },
       {

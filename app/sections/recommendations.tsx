@@ -24,7 +24,7 @@ export default function Recommendations() {
     },
   ];
   return (
-    <section className="p-8 mb-4">
+    <section className="section-spacing">
       <div className="flex gap-3 justify-start relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-tr from-transparent to-primary-800" />
         {recommendations.map((recommendation) => (
